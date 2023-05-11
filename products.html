@@ -10,7 +10,6 @@
         <div class="w-10 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
           <img src="avatar.jpg"/>
         </div>
-      </div>
     </header>
     <!--This is the BEGINNING navigation menu bar on the left side-->
     <main class="grid grid-flow-col auto-cols-max">
@@ -43,14 +42,39 @@
             Products</a></li>
         </ul><br>
     <!--This is the END of the navigation menu bar-->
+    </div> <!--KEEP, this closes off one column and starts the next-->
+    <div class="flex flex-row gap-10 m-10"> <!--KEEP, this starts the next column / main body-->
+    <!--Beginning of card-->
+    <div class="card bg-base-100 shadow-xl w-48">
+      <figure><img src="avatar.jpg" alt="Shoes" class=""/></figure>
+      <div class="card-body bg-white">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
     </div>
+    <!--End of card-->
 
-    </main>
-    
+    <!--Beginning of card-->
+      <div class="card bg-base-100 shadow-xl w-48">
+          <figure><img src="avatar.jpg" alt="Shoes" class=""/></figure>
+          <div class="card-body bg-white">
+            <h2 class="card-title">Shoes!</h2>
+            <p>If a dog chews shoes whose shoes does he choose?</p>
+            <div class="card-actions justify-end">
+              <button class="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+      </div>
+      <!--End of card-->
 
+        
+      </div> <!--Designates the end of the column / main body-->
+</main>
 
-
-    <footer class="w-full bg-primary h-14 py-5 absolute bottom-0">
+    <footer class="w-full bg-primary h-14 py-5">
       Copyright © 2023 | All Rights Reserved
     </footer>
 </body>
